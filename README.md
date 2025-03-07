@@ -1,5 +1,27 @@
-# FIAP_FASE5_CAP1
 
+# FIAP - Faculdade de Informática e Administração Paulista
+
+<p align="center">
+<a href= "https://www.fiap.com.br/"><img src="assets/logo-fiap.png" alt="FIAP - Faculdade de Informática e Admnistração Paulista" border="0" width=40% height=40%></a>
+</p>
+
+<br>
+
+# FIAP Fase2_Cap6 Python e Alem
+
+
+## 👨‍🎓 Integrantes: 
+- <a href="https://www.linkedin.com/in/amanda-fragnan-b61537255/" target="_blank">Amanda Fragnan RM 555684 </a>
+- <a href="https://www.linkedin.com/in/cunhaandre/" target="_blank">Andre Cunha RM 560648</a>
+- <a href="https://www.linkedin.com/in/gabriellehalasc/" target="_blank">Gabrielle Halasc RM 560147</a> 
+
+## 👩‍🏫 Professores:
+### Tutor(a)
+- <a href="https://www.linkedin.com/in/lucas-gomes-moreira-15a8452a/">Lucas Gomes Moreira</a>
+### Coordenador(a)
+- <a href="https://www.linkedin.com/in/profandregodoi/">André Godoi</a>
+
+## 📜 Descrição
 # Análise Preditiva de Rendimento de Safra
 
 Este repositório contém uma análise preditiva do rendimento de safra utilizando diferentes algoritmos de aprendizado de máquina. O objetivo é prever o rendimento das safras com base em variáveis ambientais e meteorológicas, utilizando técnicas avançadas de modelagem, como **Random Forest**, **Gradient Boosting**, **SVM**, e **Redes Neurais**.
