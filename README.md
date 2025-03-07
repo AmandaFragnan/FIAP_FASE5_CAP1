@@ -39,3 +39,18 @@ Para entender completamente o passo a passo e os detalhes da análise, por favor
    
    ```bash
    pip install -r requirements.txt
+
+2. Iniciar o Jupyter Notebook: Navegue até o diretório do repositório e execute o seguinte comando para abrir o notebook:
+
+   ```bash
+   jupyter notebook
+
+3. Abra o notebook localizado no diretório notebooks/ para visualizar o passo a passo completo.
+
+### Resultados Principais
+Os modelos preditivos avaliados mostraram uma variação significativa no desempenho. O Gradient Boosting obteve o melhor desempenho, seguido pelo Random Forest. Modelos como SVM e Redes Neurais não performaram tão bem devido à natureza dos dados e às dificuldades de ajuste de parâmetros.
+
+### Vídeo Demonstrativo
+Para uma demonstração visual de todo o processo de execução do código e análise, veja o vídeo abaixo:
+
+[Inserir Link do YouTube Aqui]
