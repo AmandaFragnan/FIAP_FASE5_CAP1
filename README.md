@@ -52,7 +52,27 @@ A solução envolve um estudo completo, desde a análise exploratória dos dados
    - Comparação entre os diferentes modelos.
    - Análise das limitações do trabalho e possíveis melhorias.
 
-## Como Explorar a Solução
+### Resultados Principais
+Os modelos preditivos avaliados mostraram uma variação significativa no desempenho. O Gradient Boosting obteve o melhor desempenho, seguido pelo Random Forest. Modelos como SVM e Redes Neurais não performaram tão bem devido à natureza dos dados e às dificuldades de ajuste de parâmetros.
+
+### Vídeo Demonstrativo
+Para uma demonstração visual de todo o processo de execução do código e análise, veja o vídeo abaixo:
+
+[https://youtu.be/2a308ChhgUg]
+
+## 📁 Estrutura de pastas
+
+Dentre os arquivos e pastas presentes na raiz do projeto, definem-se:
+
+
+- <b>AmandaFragnanDeOliveira_rm555684_pbl_fase5.ipynb</b>: aqui esta o arquivo com o Notebook Python.
+
+- <b>rrendimento_da_colheita.csv</b>: arquivo utilizado para executar o Notebook contendo os dados da colheita.
+
+- <b>README.md</b>: arquivo que serve como guia e explicação geral sobre o projeto (o mesmo que você está lendo agora).
+
+
+## 🔧 Como executar o código
 
 Para entender completamente o passo a passo e os detalhes da análise, por favor, consulte o **Jupyter Notebook** localizado no diretório `notebooks/`. O notebook contém a descrição detalhada de todas as etapas do trabalho, incluindo código, gráficos e resultados.
 
@@ -70,10 +90,9 @@ Para entender completamente o passo a passo e os detalhes da análise, por favor
 
 3. Abra o notebook localizado no diretório para visualizar o contéudo completo.
 
-### Resultados Principais
-Os modelos preditivos avaliados mostraram uma variação significativa no desempenho. O Gradient Boosting obteve o melhor desempenho, seguido pelo Random Forest. Modelos como SVM e Redes Neurais não performaram tão bem devido à natureza dos dados e às dificuldades de ajuste de parâmetros.
+## Historico de lançamentos
 
-### Vídeo Demonstrativo
-Para uma demonstração visual de todo o processo de execução do código e análise, veja o vídeo abaixo:
+- <b> 0.1.0 -07/03/2025<b>
 
-[https://youtu.be/2a308ChhgUg]
+  
+## 📋 Licença
