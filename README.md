@@ -96,6 +96,7 @@ Para entender completamente o passo a passo e os detalhes da análise, por favor
 
 - Região São Paulo (sa-east-1): USD 17,38/mês
 - Região Virgínia do Norte (us-east-1): USD 10,13/mês
+  ![Gráfico](https://github.com/AmandaFragnan/FIAP_FASE5_CAP1/blob/main/Captura%20de%20tela%202025-03-18%20163209.png)
   
    A região dos EUA apresenta um custo aproximadamente 41,7% menor em comparação com a região brasileira. No entanto, o custo não é o único fator a ser considerado.
    A API que processará dados de sensores precisa de respostas rápidas e baixa latência. A escolha de servidores mais próximos aos usuários melhora a velocidade de acesso aos dados e reduz atrasos na comunicação entre sensores e a nuvem. Então devemos levar em conta que a região São Paulo irá ter uma melhor comunicação com os servidores, oferencendo até 3x mais velocidade aos usuarios do Brasil do que a da Virginia.
