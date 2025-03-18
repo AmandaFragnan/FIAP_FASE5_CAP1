@@ -90,9 +90,28 @@ Para entender completamente o passo a passo e os detalhes da análise, por favor
 
 3. Abra o notebook localizado no diretório para visualizar o contéudo completo.
 
+### Custos para armazenamento dessa estrutura em nuvem
+
+ Conforme a estimativa realizada na Calculadora da AWS, os custos mensais para uma instância t4g.micro com 50GB de armazenamento são:
+
+- Região São Paulo (sa-east-1): USD 17,38/mês
+- Região Virgínia do Norte (us-east-1): USD 10,13/mês
+  
+   A região dos EUA apresenta um custo aproximadamente 41,7% menor em comparação com a região brasileira. No entanto, o custo não é o único fator a ser considerado.
+   A API que processará dados de sensores precisa de respostas rápidas e baixa latência. A escolha de servidores mais próximos aos usuários melhora a velocidade de acesso aos dados e reduz atrasos na comunicação entre sensores e a nuvem. Então devemos levar em conta que a região São Paulo irá ter uma melhor comunicação com os servidores, oferencendo até 3x mais velocidade aos usuarios do Brasil do que a da Virginia.
+   Outros pontos a serem considerados são  as legislações brasileiras, como a Lei Geral de Proteção de Dados (LGPD), que podem exigir que determinados dados sejam armazenados dentro do país. Caso os sensores capturem informações sensíveis, a transferência para servidores no exterior pode representar riscos de não conformidade legal.
+Manter os dados na região de São Paulo garante aderência às normas locais, evitando problemas jurídicos e protegendo informações críticas.
+   Levando em consideração os pontos apresentados podemos dizer que embora a região da Virgínia do Norte tenha um custo inferior, a região de São Paulo é a melhor escolha devido a:
+- Menor latência e melhor desempenho para usuários no Brasil.
+- Conformidade com a legislação brasileira (LGPD).
+- Maior segurança jurídica ao manter os dados dentro do país.
+
+Portanto, a recomendação final é hospedar a API e os dados na região de São Paulo (sa-east-1) para garantir um serviço rápido, seguro e alinhado às exigências legais.
+
 ## Historico de lançamentos
 
 - <b> 0.1.0 -07/03/2025<b>
+- <b> 0.1.1 -18/03/2025<b>
 
 ## 📋 Licença
 
