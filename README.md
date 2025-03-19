@@ -109,6 +109,9 @@ Manter os dados na região de São Paulo garante aderência às normas locais, e
 
 Portanto, a recomendação final é hospedar a API e os dados na região de São Paulo (sa-east-1) para garantir um serviço rápido, seguro e alinhado às exigências legais.
 
+Link Youtube: 
+https://youtu.be/rFq2N4gGdZk
+
 ## Historico de lançamentos
 
 - <b> 0.1.0 -07/03/2025<b>
